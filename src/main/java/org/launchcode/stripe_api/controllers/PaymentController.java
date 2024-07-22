@@ -10,7 +10,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/payment")
-@CrossOrigin(origins = "http://localhost:3000")  // Allow requests from React frontend
+@CrossOrigin(origins = "http://localhost:3000")  
 public class PaymentController {
 
     @PostMapping("/create-payment-intent")
