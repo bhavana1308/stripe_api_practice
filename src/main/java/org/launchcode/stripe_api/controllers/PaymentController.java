@@ -10,7 +10,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/payment")
-@CrossOrigin(origins = "http://localhost:3000")  
+@CrossOrigin(origins = "http://localhost:3000")
 public class PaymentController {
 
     @PostMapping("/create-payment-intent")
